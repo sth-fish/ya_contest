@@ -1,3 +1,7 @@
+// task: find and print two missing numbers in ascending order, separated by a space on same line.
+// input: first line contains number n. This is an integer in the range 2-10^6,
+// second line contains various n-2 integers separated by spaces, each > 0 and < n.
+
 package main
 
 import (
