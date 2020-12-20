@@ -18,29 +18,29 @@ func TestFindMissingIDs(t *testing.T) {
 	}
 
 	{
-		expexted := 2
+		expected := 2
 		actual := len(ids)
 
-		if actual != expexted {
-			t.Errorf("got len(ids) %d, want %d", actual, expexted)
+		if actual != expected {
+			t.Errorf("got len(ids) %d, want %d", actual, expected)
 		}
 	}
 
 	{
-		expexted := 5
+		expected := 5
 		actual := ids[0]
 
-		if expexted != actual {
-			t.Errorf("got ids[0] = %d, want %d", actual, expexted)
+		if expected != actual {
+			t.Errorf("got ids[0] = %d, want %d", actual, expected)
 		}
 	}
 
 	{
-		expexted := 7
+		expected := 7
 		actual := ids[1]
 
-		if expexted != actual {
-			t.Errorf("got ids[0] = %d, want %d", actual, expexted)
+		if expected != actual {
+			t.Errorf("got ids[0] = %d, want %d", actual, expected)
 		}
 	}
 }
